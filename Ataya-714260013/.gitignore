@@ -1,0 +1,12 @@
+__pycahce__/
+*.py[cod]
+*$py.class
+
+.vscode/
+.idea/
+*.swp
+
+.env
+.venv/
+env/
+venv/
