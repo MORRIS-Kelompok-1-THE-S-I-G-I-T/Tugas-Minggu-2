@@ -39,3 +39,4 @@ def hitung_deret_aritmatika(awal, beda, n):
         total += suku
         suku += beda
     return total
+# tugas minggu 2
