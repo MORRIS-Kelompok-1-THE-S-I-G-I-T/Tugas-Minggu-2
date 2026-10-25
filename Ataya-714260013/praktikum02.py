@@ -1,19 +1,14 @@
-# ==========================================
-# PRAKTIKUM 2: BILANGAN PRIMA & BREAK
-# Simpan sebagai: praktikum_02.py
-# ==========================================
 
-# Studi Kasus: Uji Bilangan Prima
 angka = int(input("Masukkan angka: "))
-is_prima = True  # Flag penanda
+is_prima = True
 
 if angka < 2:
     is_prima = False
 else:
     for pembagi in range(2, angka):
         if angka % pembagi == 0:
-            is_prima = False  # Ditemukan pembagi selain 1 dan dirinya
-            break             # Hentikan pencarian
+            is_prima = False 
+            break             
 
 if is_prima:
     print(f"{angka} adalah BILANGAN PRIMA")
