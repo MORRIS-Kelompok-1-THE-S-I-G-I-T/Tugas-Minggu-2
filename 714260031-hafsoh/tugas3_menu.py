@@ -118,3 +118,4 @@ while True:
     # ----------------------------------------------------
     else:
         print("Pilihan tidak valid! Silakan masukkan opsi 1 sampai 5.")
+        # tugas minggu 2
