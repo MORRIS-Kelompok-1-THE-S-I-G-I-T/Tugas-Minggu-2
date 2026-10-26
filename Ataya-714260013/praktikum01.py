@@ -3,7 +3,7 @@ nilai = int(input("Jumlah Nilai (1-100): "))
 
 if kehadiran >= 12:
     if nilai >= 75:
-        print("Lulus - Nilai Memuaskan")
+        print("Lulus - Nilai Lumayan")
     else:
         print("Remedial - Nilai Ujian Kurang")
 else: 
